@@ -1,0 +1,104 @@
+/* Global Box-Sizing Reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.card-container {
+  background-color: #1e1e1e;
+  border-radius: 16px;
+  max-width: 450px;
+  width: 100%;
+  padding: 30px;
+  border: 2px solid #333333;
+  box-shadow: 0 0 20px 10px rgba(30, 215, 96, 0.2);
+  text-align: center;
+}
+
+#profile-name {
+  color: #1db954;
+  font-size: 28px;
+  letter-spacing: -0.5px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.card-info {
+  color: #b3b3b3;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.art-section {
+  margin: 20px 0;
+}
+
+.art-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid #282828;
+}
+
+.bio-section {
+  margin-bottom: 20px;
+}
+
+.bio-section h2 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.bio-text {
+  color: #b3b3b3;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.card-footer h3 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.contact-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 0;
+}
+
+.contact-links a {
+  color: #1db954;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px 16px;
+  border: 1px solid #1db954;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.contact-links a:hover {
+  background-color: #1ed760;
+  border-color: #1ed760;
+  color: #121212;
+}
